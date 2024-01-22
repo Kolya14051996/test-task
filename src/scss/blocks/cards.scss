@@ -1,0 +1,98 @@
+@import "../../scss/base/vars.scss";
+.cards {
+	color: var(--text-color);
+	.button {
+		width: 120px;
+	}
+}
+
+.cards__wrapper {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+
+	gap: 50px;
+}
+.cards__title {
+	text-align: center;
+	@include tablet {
+		width: 328px;
+	}
+}
+.cards__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 29px;
+	@include tablet {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16px;
+	}
+	@include mobile-xl() {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	@include mobile {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+}
+
+//  Card
+.card {
+	width: 282px;
+	height: 254px;
+
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+	@include desktop {
+		width: 370px;
+	}
+	@include desktop-small {
+		width: 282px;
+	}
+	@include tablet {
+		width: 344px;
+	}
+	@include min-tablet {
+		width: 282px;
+	}
+	@include mobile-xl() {
+		width: 328px;
+	}
+	@include mobile {
+		width: 328px;
+	}
+}
+
+.card__photo {
+	width: 70px;
+	border-radius: 50%;
+	align-self: center;
+}
+.card__name {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.card__info {
+}
+
+.card__email {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: inherit;
+	text-decoration: inherit;
+}
+.card__position {
+}
+
+.card__phone {
+}

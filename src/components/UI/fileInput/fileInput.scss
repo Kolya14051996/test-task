@@ -1,0 +1,45 @@
+@import '../../../scss/base/vars.scss';
+
+.form__photo {
+	width: 380px;
+	display: flex;
+	border: 1px solid #d0cfcf;
+	border-radius: 4px;
+	align-self: center;
+	label {
+		padding: 15px;
+		display: inline-block;
+		border-radius: 4px 0px 0px 4px;
+		border: 1px solid #646464;
+
+		&:hover {
+			border: 1px solid rgba(0, 0, 0, 0.87);
+		}
+	}
+	p {
+		align-self: center;
+		padding-left: 10px;
+		opacity: 0.7;
+		pointer-events: none;
+		user-select: none;
+		font-size: 14px;
+		overflow: hidden;
+	}
+	.form__arrow {
+		margin-left: auto;
+		margin-right: 20px;
+		width: 18px;
+		pointer-events: none;
+	}
+	@include tablet{
+		width: 328px;
+	}
+	@include mobile {
+		width: 320px;
+	}
+}
+.input__helper-file {
+	margin-top: 10px;
+}
+
+

@@ -1,0 +1,16 @@
+.tooltip__wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+
+
+.tooltip-text {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1000;
+  white-space: nowrap;
+}

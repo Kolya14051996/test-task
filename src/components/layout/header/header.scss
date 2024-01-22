@@ -1,0 +1,35 @@
+@import '../../../scss/base/vars.scss';
+.header {
+	background-color: white;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+
+	@media screen and (max-width: 1180px) {
+			padding: 17px 20px;
+	}
+	
+	@include desktop-small {
+		padding: 0 20px;
+	}
+	@include tablet {
+		padding: 17px 32px;
+	}
+	@media screen and (max-width: 401px) {
+		padding: 13px 16px;
+}
+	@include mobile {
+		width: 360px;
+		height: 60px;
+    padding: 13px 16px;
+	}
+}
+
+.nav__auth-panel {
+	display: flex;
+	gap: 10px;
+}

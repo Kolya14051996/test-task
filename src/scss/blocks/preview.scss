@@ -1,0 +1,54 @@
+@import '../../scss/base/vars.scss' ;
+
+.preview__content {
+}
+
+.preview__wrapper {
+	background-image: url('../../img/Rectangle 29.png');
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@include 	desktop-small {
+		background-image: url('../../img/main1024.png');
+	}
+	@include tablet {
+		background-image: url('../../img/main768.png');
+		height: 500px;
+	}
+
+	@include mobile {
+		background-image: url('../../img/mainPhone.png');
+		
+	}
+}
+
+.preview__box {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	gap: 32px;
+	width: 380px;
+	@media screen and (max-width: 401px) {
+		padding: 0 10px;
+	}
+	@include mobile {
+		width: 328px;
+		padding: 0 16px;
+	}
+}
+
+.preview__text {
+	display: grid;
+	gap: 21px;
+}
+.header__title {
+}
+.header__anons {
+}
