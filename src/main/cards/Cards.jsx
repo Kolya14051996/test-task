@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../../components/card/Card";
 import Button from "../../components/UI/button/Button";
+import Preloader from '../../components/preloader/Preloader'
 
 import { commonText } from "../../utils/constants/text";
 import { textButtons } from "../../utils/constants/text";
@@ -10,6 +11,8 @@ import { displayedUsers } from "../../utils/helpers/helpers";
 const Cards = ({ refreshUsersData }) => {
 	const [users, setUsers] = useState([]);
 	const [showAll, setShowAll] = useState(false);
+
+	const emptyList = users.length === 0;
 
 	useEffect(() => {
 		const fetchUsers = async () => {
@@ -34,11 +37,11 @@ const Cards = ({ refreshUsersData }) => {
 				<div className="cards__wrapper">
 					<h1 className="cards__title">{commonText.h1Get}</h1>
 					<ul className="cards__list">
-						{displayedUsers(users, showAll).map((user) => {
+						{emptyList ? <Preloader/> : displayedUsers(users, showAll).map((user) => {
 							return (
-								<li>
+								<li key={user.id}>
 									<Card
-										key={user.id}
+										
 										photo={user.photo}
 										name={user.name}
 										position={user.position}

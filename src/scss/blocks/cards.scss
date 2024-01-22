@@ -1,4 +1,4 @@
-@import "../../scss/base/vars.scss";
+@import '../../scss/base/vars.scss';
 .cards {
 	color: var(--text-color);
 	.button {
@@ -23,6 +23,9 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 29px;
+	.preloader{
+		grid-column-start: 2
+	}
 	@include tablet {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 16px;

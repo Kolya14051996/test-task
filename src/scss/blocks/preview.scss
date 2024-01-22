@@ -1,10 +1,10 @@
-@import '../../scss/base/vars.scss' ;
+@import '../../scss/base/vars.scss';
 
 .preview__content {
 }
 
 .preview__wrapper {
-	background-image: url('../../img/Rectangle 29.WebP');
+	background-image: url('../../img/main.png');
 	background-size: cover;
 	background-position: center;
 	height: 650px;
@@ -14,17 +14,16 @@
 	align-items: center;
 	justify-content: center;
 
-	@include 	desktop-small {
-		background-image: url('../../img/main1024.WebP');
+	@include desktop-small {
+		background-image: url('../../img/main1024.png');
 	}
 	@include min-tablet {
-		background-image: url('../../img/main768.WebP');
+		background-image: url('../../img/main768.png');
 		height: 500px;
 	}
 
-	@include mobile {
-		background-image: url('../../img/mainPhone.WebP');
-		
+	@include mobile-xl {
+		background-image: url('../../img/mainPhone.png');
 	}
 }
 
