@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/test-task/static/css/main.6aec9f54.css",
-    "main.js": "/test-task/static/js/main.2c79f116.js",
-    "static/media/Rectangle 29.WebP": "/test-task/static/media/Rectangle 29.5fff95b28b2b73999698.WebP",
-    "static/media/main1024.WebP": "/test-task/static/media/main1024.97a28916b64bbbafb6eb.WebP",
-    "static/media/main768.WebP": "/test-task/static/media/main768.78baa64ca2fbf33a156c.WebP",
-    "static/media/mainPhone.WebP": "/test-task/static/media/mainPhone.f09745ecfb59d899d06d.WebP",
-    "static/media/success-image.svg": "/test-task/static/media/success-image.6a1c30f4e083389616e71c371328148a.svg",
-    "static/media/Logo.svg": "/test-task/static/media/Logo.ef6f10290b4a9563544cb4d9953bf5f7.svg",
-    "static/media/photo-cover.svg": "/test-task/static/media/photo-cover.15619f397dc16d2f55d8515f68515d35.svg",
-    "static/media/Group 64.svg": "/test-task/static/media/Group 64.68181a509ce57edfaacba1d5543c5852.svg",
-    "index.html": "/test-task/index.html",
-    "main.6aec9f54.css.map": "/test-task/static/css/main.6aec9f54.css.map",
-    "main.2c79f116.js.map": "/test-task/static/js/main.2c79f116.js.map"
+    "main.css": "/github.io/test-task/static/css/main.bb5aa711.css",
+    "main.js": "/github.io/test-task/static/js/main.85ec9a5a.js",
+    "static/media/Rectangle 29.WebP": "/github.io/test-task/static/media/Rectangle 29.5fff95b28b2b73999698.WebP",
+    "static/media/main1024.WebP": "/github.io/test-task/static/media/main1024.97a28916b64bbbafb6eb.WebP",
+    "static/media/main768.WebP": "/github.io/test-task/static/media/main768.78baa64ca2fbf33a156c.WebP",
+    "static/media/mainPhone.WebP": "/github.io/test-task/static/media/mainPhone.f09745ecfb59d899d06d.WebP",
+    "static/media/success-image.svg": "/github.io/test-task/static/media/success-image.6a1c30f4e083389616e71c371328148a.svg",
+    "static/media/Logo.svg": "/github.io/test-task/static/media/Logo.ef6f10290b4a9563544cb4d9953bf5f7.svg",
+    "static/media/photo-cover.svg": "/github.io/test-task/static/media/photo-cover.15619f397dc16d2f55d8515f68515d35.svg",
+    "static/media/Group 64.svg": "/github.io/test-task/static/media/Group 64.68181a509ce57edfaacba1d5543c5852.svg",
+    "index.html": "/github.io/test-task/index.html",
+    "main.bb5aa711.css.map": "/github.io/test-task/static/css/main.bb5aa711.css.map",
+    "main.85ec9a5a.js.map": "/github.io/test-task/static/js/main.85ec9a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aec9f54.css",
-    "static/js/main.2c79f116.js"
+    "static/css/main.bb5aa711.css",
+    "static/js/main.85ec9a5a.js"
   ]
 }
