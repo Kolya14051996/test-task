@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/test-task/static/css/main.041540a4.css",
+    "main.js": "/github.io/test-task/static/js/main.64d67451.js",
+    "static/media/Rectangle 29.png": "/github.io/test-task/static/media/Rectangle 29.5fff95b28b2b73999698.png",
+    "static/media/main1024.png": "/github.io/test-task/static/media/main1024.97a28916b64bbbafb6eb.png",
+    "static/media/main768.png": "/github.io/test-task/static/media/main768.78baa64ca2fbf33a156c.png",
+    "static/media/mainPhone.png": "/github.io/test-task/static/media/mainPhone.f09745ecfb59d899d06d.png",
+    "static/media/success-image.svg": "/github.io/test-task/static/media/success-image.147ff01aeb0caaca03a3a94cfe9c0ce6.svg",
+    "static/media/Logo.svg": "/github.io/test-task/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/github.io/test-task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "static/media/Group 64.svg": "/github.io/test-task/static/media/Group 64.5b314d27795546fb9cea0afce6c35721.svg",
+    "index.html": "/github.io/test-task/index.html",
+    "main.041540a4.css.map": "/github.io/test-task/static/css/main.041540a4.css.map",
+    "main.64d67451.js.map": "/github.io/test-task/static/js/main.64d67451.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041540a4.css",
+    "static/js/main.64d67451.js"
+  ]
+}
