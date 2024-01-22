@@ -4,7 +4,7 @@
 }
 
 .preview__wrapper {
-	background-image: url('../../img/Rectangle 29.png');
+	background-image: url('../../img/Rectangle 29.WebP');
 	background-size: cover;
 	background-position: center;
 	height: 650px;
@@ -15,15 +15,15 @@
 	justify-content: center;
 
 	@include 	desktop-small {
-		background-image: url('../../img/main1024.png');
+		background-image: url('../../img/main1024.WebP');
 	}
-	@include tablet {
-		background-image: url('../../img/main768.png');
+	@include min-tablet {
+		background-image: url('../../img/main768.WebP');
 		height: 500px;
 	}
 
 	@include mobile {
-		background-image: url('../../img/mainPhone.png');
+		background-image: url('../../img/mainPhone.WebP');
 		
 	}
 }
